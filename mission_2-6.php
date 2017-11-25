@@ -35,6 +35,8 @@
 
 
 <?php
+//記録用ファイルがなければ作成する。
+if( !file_exists('kadai2-6.txt') ){ touch('kadai2-6.txt'); }
 
 //新規入力
 
