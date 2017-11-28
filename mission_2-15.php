@@ -108,9 +108,8 @@ try{
 			}
 			else{ echo "<font color=red>⚠お名前が未入力です。</font>";}
 		}
-		else{ echo "<font color=red>⚠パスが未入力です。</font>";}
-	}
-	
+		else{ echo "<font color=red>⚠パスが未入力です。</font>";}	}
+		
 	
 //コメント削除
 	
@@ -142,9 +141,9 @@ try{
 	
 //コメント編集
 	
-	//どのフォームからの送信かの判定。
+	//どのフォームからの送信かの判定
 	if( $_POST["type"] == "edit"){
-		//フォームが空かの判定。
+		//フォームが空かの判定
 		if( !(empty($_POST["pass"]) == TRUE )){
 			if( !(empty($_POST["edit_number"]) == TRUE )){
 				if( !(empty($_POST["edit_comment"]) == TRUE )){
