@@ -1,10 +1,10 @@
 <?php
 	//DBにMysql、データベース名・testを指定。
-	$dsn = 'mysql:dbname=co_637_it_3919_com;host=localhost';
+	$dsn = 'mysql:dbname=test;host=localhost';
 	
 	//DBに接続するためのユーザー名・パスワードを設定
-	$user = 'co-637.it.3919.c';
-	$pass = '7vufTva';
+	$user = '*******';
+	$pass = '*******';
 	
 	
 	//データーベースに接続
