@@ -576,8 +576,10 @@ $thread_num = 1;//複数スレッドを管理するためのスレッド番号�
 		
 		
 //コメント表示
-		
-		echo "<br /><br />*.｡:ﾟ+..｡*ﾟ+.｡*ﾟ+.*.｡:ﾟ+..｡*ﾟ+ コメントログ .｡*ﾟ+.*.｡:ﾟ+..｡*ﾟ+.｡*ﾟ+.*.｡:ﾟ+<br /><br />";
+		echo "<br><hr align='left' width='520px' height='1' color='#fff'>
+			<center>コメントログ</center>
+			<hr align='left' width='520px' height='1' color='#fff'><br>
+		";
 		
 		//テーブルからデータを取得（ORDER BYで昇順にソート）
 		$showdata = "SELECT * FROM answer ORDER BY res_num";
