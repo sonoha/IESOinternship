@@ -469,7 +469,7 @@ $thread_num = 1;//複数スレッドを管理するためのスレッド番号�
 					a_content,
 					a_time,
 					img_ext,
-					img_img,
+					img_img
 				) VALUES (
 					:thread_num,
 					:res_num,
@@ -477,7 +477,7 @@ $thread_num = 1;//複数スレッドを管理するためのスレッド番号�
 					:a_content,
 					:a_time,
 					:img_ext,
-					:img_img,
+					:img_img
 				)");
 					
 				//時間に関するデータを取得
